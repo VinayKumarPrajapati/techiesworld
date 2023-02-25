@@ -1,4 +1,5 @@
-# techiesWorld
+# Techies World: Connecting India's Best Techies
+
 
 Techies World will provide a community for techies who may want to stay with Tier 1 colleges, Tier 2 colleges, startup founders, startup employees, product-based company employees, and service-to-product moving employees. This community will create multiple Silicon Valleys in India and provide housing nearby for people with the same goal of succeeding in tech.
 
