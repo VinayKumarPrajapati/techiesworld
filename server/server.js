@@ -1,9 +1,9 @@
 const express = require('express');
-
+const { router } = require('./routes/auth');
+import {readFileSync} from 'fs';
 const app = express();
 
-app.get('/api/:message',(req,res) => {
-    res.status(200).send(req.params.message);
-});
+// app.use('/api',router);
+readFileSync('./routes').map((r) => app.use('/api',require('./routes/${r}')));
 
 app.listen(8000,() => console.log(`Connecting to techies`));
