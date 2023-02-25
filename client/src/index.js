@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import reportWebVitals from "./reportWebVitals";
 import { authReducer } from "./reducers/auth";
+import rootReducer from "./reducers";
 // { type: 'LOGGED_IN_USER', payload: {name: 'Vinay', role: 'Broker'} }
 
 const rootReducer = combineReducers({ user: authReducer });
