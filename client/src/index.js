@@ -9,7 +9,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 const rootReducer = combineReducers({user: authReducer});
 // 2. create user reducer function
 // { type: 'LOGGED_IN_USER', payload: {name: 'Vinay', role: 'Broker'} }
-const authReducer = (state = {}, action) => {
+const authReducer = (state = {name: 'vinay', role: 'Broker'}, action) => {
 switch (action.type) {
 case "LOGGED_IN_USER":
 return { ... state, ...action.payload };
